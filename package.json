@@ -191,6 +191,7 @@
     "redux": "^3.7.1",
     "redux-thunk": "^2.2.0",
     "source-map-support": "^0.4.15",
+    "spawn-sync": "^2.0.0",
     "tar-fs": "1.15.0"
   },
   "devEngines": {
