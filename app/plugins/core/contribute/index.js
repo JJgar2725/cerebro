@@ -1,27 +1,33 @@
-import { remote } from 'electron'
 import { search } from 'cerebro-tools'
 import icon from '../icon.png'
 
 const KEYWORDS = [
   'Contribute',
   'Source',
-  'Code'
 ]
 
 const subtitle = 'Contribute to Cerebro'
-const onSelect = () => console.log('TODO: ADD REPO LINK')
 
 /**
  * Plugin to open Cerebro source code
  *
  * @param  {String} options.term
  * @param  {Function} options.display
+ * @param  {Object} options.actions
  */
-const fn = ({ term, display }) => {
+const fn = ({ term, display, actions }) => {
+  const onSelect = function () { 
+    actions.open(`https://github.com/cerebroapp/cerebro`); 
+  }
+
   const result = search(KEYWORDS, term).map(title => ({
-    icon, title, subtitle, onSelect,
+    icon, 
+    title, 
+    subtitle, 
+    onSelect,
     term: title,
   }))
+
   display(result)
 }
 
