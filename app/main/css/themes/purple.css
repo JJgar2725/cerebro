@@ -40,3 +40,9 @@
     --preview-filter: none;
   }
   
+  ::placeholder {
+    color: lightblue;
+    opacity: 1;
+  }
+  
+  
