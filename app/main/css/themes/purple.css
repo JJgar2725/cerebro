@@ -5,7 +5,7 @@
     --main-font-color: #cb80e9;
   
     /* border styles */
-    --main-border: 1px solid rgb(25, 0, 31);
+    --main-border: 1px solid #cb80e9;
   
     /* Secondary fonts and colors */
     --secondary-font-color: rgb(179, 158, 177);
@@ -22,7 +22,7 @@
   
     /* scrollbar */
     --scroll-background: var(--main-background-color);
-    --scroll-track: #e0e0e0;
+    --scroll-track: #35063f;
     --scroll-track-active: var(--scroll-track);
     --scroll-track-hover: var(--scroll-track);
     --scroll-thumb: var(--secondary-font-color);

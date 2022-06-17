@@ -5,7 +5,7 @@
     --main-font-color: #91eb95;
   
     /* border styles */
-    --main-border: 1px solid #eee;
+    --main-border: 1px solid #91eb95;
   
     /* Secondary fonts and colors */
     --secondary-font-color: rgb(45, 168, 101);
@@ -13,16 +13,16 @@
     /* results list */
     --result-background: transparent;
     --result-title-color: var(--main-font-color);
-    --result-subtitle-color: #cccccc;
+    --result-subtitle-color: #fffbfb;
   
     /* selected result */
-    --selected-result-title-color: white;
+    --selected-result-title-color: green;
     --selected-result-subtitle-color: var(--result-subtitle-color);
     --selected-result-background: rgba(18, 110, 219, 1);
   
     /* scrollbar */
     --scroll-background: var(--main-background-color);
-    --scroll-track: #e0e0e0;
+    --scroll-track: rgb(213, 223, 213);
     --scroll-track-active: var(--scroll-track);
     --scroll-track-hover: var(--scroll-track);
     --scroll-thumb: var(--secondary-font-color);
